@@ -7,7 +7,7 @@ The aim here is to explore WMT variability through Walin’s classic WMT framewo
 
 Project has been submitted to Ocean Science at EGUSphere. The preprint doi link is [here](https://doi.org/10.5194/egusphere-2022-129).
 
-
+WG boundaries: [65˚W, 30˚E; 80˚S, 57˚S]
 ## Project Steps: Two parts
 
 ### Part 1 - Regional (box) Budget
