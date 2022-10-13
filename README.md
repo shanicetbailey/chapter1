@@ -8,6 +8,8 @@ The aim here is to explore WMT variability through Walin’s classic WMT framewo
 Project has been submitted to Ocean Science at EGUSphere. The preprint doi link is [here](https://doi.org/10.5194/egusphere-2022-129).
 
 WG boundaries: [65˚W, 30˚E; 80˚S, 57˚S]
+In the north, the boundary is formed by the frontal structure of the southern ACC, which in turn is topographically guided by the South Scotia Ridge in the west and the North Weddell Ridge in the east. The northern boundary of the gyre in the west is at about 60˚S, whereas further east, it moves to about 55˚S (Vernet et al., 2019).
+
 ## Project Steps: Two parts
 
 ### Part 1 - Regional (box) Budget
