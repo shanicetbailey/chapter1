@@ -1,5 +1,5 @@
-# Universal box budget function for SOSE's data
-# Given upper right / lower left cell coordinates, construct the tx_trans and ty_trans sections that bound it
+# Universal box budget function for ECCO's data
+# Given upper right / lower left cell coordinates, construct the x and y sections that bound it
 
 def box_budget(da_i, da_j, left_i, right_i, lower_j, upper_j, bs=None):
     
