@@ -24,3 +24,24 @@ def box_budget(da_i, da_j, left_i, right_i, lower_j, upper_j, bs=None):
         None 
     
     return -upper.sum(('k', 'i')) + lower.sum(('k', 'i')) - right.sum(('k', 'j')) + left.sum(('k', 'j'))
+
+
+
+#Slicing instead of slice and sum
+
+def slice_box(da, left_i=None, right_i=None, lower_j=None, upper_j=None, cell=None):
+    
+    """Function to simply slice data to desired box boundary.
+        Specify if data array's grid is only grid center, or
+        some combination of grid center and face."""
+    
+    if cell=='c':
+        box = da.isel(j=slice(lower_j, upper_j), i=slice(left_i, right_i))
+    elif cell=='xg':
+        box = da.isel(j=slice(lower_j, upper_j), i_g=slice(left_i, right_i))
+    elif cell=='yg':
+        box = da.isel(j_g=slice(lower_j, upper_j), i=slice(left_i, right_i))
+    else:
+        None
+    
+    return box
