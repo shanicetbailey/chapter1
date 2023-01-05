@@ -14,9 +14,9 @@ In the north, the boundary is formed by the frontal structure of the southern AC
 
 ### Part 1 - Regional (box) Budget
 Close box model budget for:
-1. Heat ($\theta$)
-2. Salinity (S)
-3. Reference densities ($\sigma$)
+1. Heat
+2. Salinity
+3. Potential density
 
 ### Part 2 - WMT Budget
 Similar budget workflow for aforementioned steps, but with moving coordinates.
